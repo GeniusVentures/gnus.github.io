@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Genius Software Manager: an evidence-based architecture for measuring engineering productivity, quality, and business outcomes. Research paper by Kenneth Hurley.">
+  <title>Genius Software Manager | Engineering Outcomes Paper</title>
+  <style>
+    :root { color-scheme: light; --ink:#183149; --muted:#526577; --line:#dce5ec; --bg:#eef3f7; --card:#ffffff; --accent:#125c82; }
+    * { box-sizing:border-box; }
+    html,body { margin:0; min-height:100%; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--bg); }
+    .shell { max-width:1180px; margin:0 auto; padding:24px 20px 32px; }
+    .eyebrow { color:var(--accent); letter-spacing:.12em; text-transform:uppercase; font-weight:750; font-size:12px; margin:0 0 7px; }
+    h1 { font-size:clamp(23px,3vw,36px); letter-spacing:-.025em; margin:0 0 9px; line-height:1.16; }
+    .subtitle { font-size:clamp(14px,1.7vw,17px); color:var(--muted); margin:0; max-width:900px; line-height:1.5; }
+    .bar { margin:18px 0 18px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; }
+    .byline { color:var(--muted); margin:0; font-size:14px; }
+    .actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; text-decoration:none; border:1px solid var(--accent); border-radius:8px; padding:10px 15px; font-size:14px; font-weight:650; color:#fff; background:var(--accent); }
+    .btn.secondary { color:var(--accent); background:transparent; }
+    .btn:hover { filter:brightness(.92); }
+    .viewer { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; box-shadow:0 8px 36px rgba(23,45,65,.08); }
+    iframe { display:block; width:100%; height: min(83vh,1100px); min-height:480px; border:0; }
+    footer { padding-top:15px; font-size:12px; color:var(--muted); }
+    @media (max-width:620px) { .shell { padding:16px 10px 22px; } iframe { min-height:65vh; } .bar { gap:14px; } .actions { width:100%; } .btn { flex:1; } }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <p class="eyebrow">Genius Ventures · Research Paper</p>
+    <h1>Genius Software Manager</h1>
+    <p class="subtitle">An Evidence-Based Architecture for Measuring Software Engineering Productivity, Quality, and Business Outcomes in AI-Assisted Development</p>
+    <div class="bar">
+      <p class="byline">Kenneth Hurley · Genius Ventures, Inc. · October 2026</p>
+      <nav class="actions" aria-label="Paper actions">
+        <a class="btn" href="./GSM-Engineering-Outcomes-Paper.pdf" target="_blank" rel="noopener">Open PDF</a>
+        <a class="btn secondary" href="./GSM-Engineering-Outcomes-Paper.pdf" download>Download PDF</a>
+      </nav>
+    </div>
+    <section class="viewer" aria-label="Research paper PDF">
+      <iframe src="./GSM-Engineering-Outcomes-Paper.pdf#view=FitH" title="GSM Engineering Outcomes Paper — PDF viewer">
+        <p>Your browser cannot display an embedded PDF. <a href="./GSM-Engineering-Outcomes-Paper.pdf">Open the paper</a> instead.</p>
+      </iframe>
+    </section>
+    <footer>Public research paper. GSM's development tools and private source code are not hosted on this page.</footer>
+  </main>
+</body>
+</html>
